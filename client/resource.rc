@@ -1,0 +1,65 @@
+ID_ICO                  ICON    DISCARDABLE     "Cursor\\FiveChess.ico"
+ID_CUR                  CURSOR  DISCARDABLE     "Cursor\\Arrow.cur"
+ID_CUR2                 CURSOR  DISCARDABLE     "Cursor\\LClick.cur"
+ID_CUR3                 CURSOR  DISCARDABLE     "Cursor\\RClick.cur"
+ID_CUR4                 CURSOR  DISCARDABLE     "Cursor\\hand1.cur"
+ID_CUR5                 CURSOR  DISCARDABLE     "Cursor\\hand2.cur"
+
+#define	IDM_MAIN	1000	//菜单
+#define	IDA_MAIN	1001	//托盘菜单
+
+#define	IDM_RESTART	1002	//"重来"菜单项
+#define	IDM_TURNBACK	1003	//"悔棋"菜单项
+#define IDM_EXIT        1004    //"退出"菜单
+#define	IDM_HEIZIJINSHOU 1005	//"黑子禁手菜单项"
+#define	IDM_HUANSE	1006	//"换色菜单项"
+//#define IDM_HELP	1007	//"帮助"菜单项
+#define IDM_OPEN        1008        //打开界面
+
+#define ABOUTSDK        1009    //关于SDK
+#define ABOUTFIVECHESS  1010    //关于五子棋
+#define ABOUTJINSHOU    1011    //关于禁手
+#define ABOUTZUOZE      1012    //关于作者
+#define ABOUTAPI        1013    //关于API
+
+#include <windows.h>
+
+IDM_MAIN MENU DISCARDABLE 
+BEGIN
+    POPUP "游戏(&F)"
+    BEGIN
+        MENUITEM "重新开始(&r)\t",IDM_RESTART
+        MENUITEM "悔棋(&b)\t",IDM_TURNBACK
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&e)\t",IDM_EXIT
+    END
+    POPUP "规则(&V)"
+    BEGIN
+        MENUITEM "黑子禁手",IDM_HEIZIJINSHOU          
+        MENUITEM SEPARATOR
+        MENUITEM "换色",IDM_HUANSE              
+    END
+    POPUP "帮助(&H)", HELP
+    BEGIN
+        MENUITEM "关于 五子棋",ABOUTFIVECHESS
+        MENUITEM "关于 执黑禁手",ABOUTJINSHOU
+        MENUITEM SEPARATOR
+        MENUITEM "关于 SDK",ABOUTSDK
+        MENUITEM "关于 API",ABOUTAPI
+        MENUITEM SEPARATOR
+        MENUITEM "关于 程序",ABOUTZUOZE
+    END
+END
+
+IDA_MAIN MENU DISCARDABLE
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "打开界面\t",                  IDM_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&e)\t",                  IDM_EXIT
+    END
+END
+
+
+

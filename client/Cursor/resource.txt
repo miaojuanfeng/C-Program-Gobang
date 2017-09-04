@@ -1,0 +1,4 @@
+ID_ICO ICON DISCARDABLE "Cursor\\FiveChess.ico"
+ID_CUR CURSOR DISCARDABLE "Cursor\\Arrow.cur"
+ID_CUR2 CURSOR DISCARDABLE "Cursor\\LClick.cur"
+ID_CUR3 CURSOR DISCARDABLE "Cursor\\RClick.cur"

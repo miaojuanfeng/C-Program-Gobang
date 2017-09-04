@@ -1,0 +1,33 @@
+			                ╭═══════════════╮
+			                ║      Windows SDK 五子棋      ║
+			  ╭══════┤     FiveChess For Windows    ├══════╮
+			  ║            ║          作者：缪隽峰        ║            ║
+			  ║            ╰═══════════════╯            ║
+			　║                                                          ║
+			　║                                                          ║
+			　║　   声明：本程序由缪隽峰为参加                           ║
+			  ║              东华理工大学“笃行”程序设计比赛            ║
+			  ║                 而编写制作，版权归作者所有！             ║
+			  ║      该软件仅用于学习交流，程序不完善地方请告知作者      ║
+			  ║                                                          ║
+			  ║      作者联系方式：                                      ║
+			  ║            东华理工大学软件学院10级电子商务3班           ║
+			  ║            QQ：247282197                                 ║
+			  ║            E-mail:miaojuanfeng@qq.com                    ║
+			  ║                                                          ║
+			  ║═════════════════════════════║
+			  ║                                                          ║
+			  ║    语言：C\C++,SDK                                       ║
+			  ║    编译器：Visual C++ 6.0                                ║
+ 			  ║    图片：来自网络                                        ║
+			  ║    音乐：《仙剑奇侠传三》主题曲                          ║
+			  ║          《粘粘世界》                                    ║
+			  ║          《植物大战僵尸》                                ║
+			  ║    图片合成：缪隽峰                                      ║
+ 			  ║    声音合成：缪隽峰                                      ║
+			  ║                                                          ║
+			　║                                                          ║
+			  ║    ╭───────────────────────╮    ║
+			  ╰══┤          感谢软件协会学长们的大力支持        ├══╯
+			        ╰───────────────────────╯
+ 
